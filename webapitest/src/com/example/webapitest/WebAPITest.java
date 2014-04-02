@@ -14,7 +14,7 @@ public class WebAPITest extends Activity {
     // Manipulate query string as needed
     // This example only displays one row
 
-    private String URL = "http://frigg.hiof.no/bo14-g23/hcserv.py?q=conversation&user_id_sender=3&user_id_receiver=4";
+    private String URL = "http://frigg.hiof.no/bo14-g23/hcserv.py?q=inbox&user_id_receiver=5";
     private TextView senderID, receiverID, message, sent, read;
     private Button loadBtn;
 
